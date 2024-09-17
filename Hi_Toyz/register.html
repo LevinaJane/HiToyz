@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HI-Toyz</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section id="header">
+        <a href="#"><img src="img/logo.png" class="logo" alt=""></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="event.html">Event</a></li>
+                <li><a class="active" href="register.html">Register Us</a></li>
+                <li id="lg-fav"><a href="favorite.html"><i class="fas fa-heart"></i></a></li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="favorite.html"><i class="fas fa-heart"></i></a>
+            <i id="bar" class="fas fa-bars"></i>
+        </div>
+    </section>
+
+    <div class="regis-title">
+        <h1>Join HI-Toyz Membership and Be Part of Us</h1>
+    </div>
+
+    <div class="wrapper">
+        <div class="title">Member Registration</div>
+        <form action="" id="form" onsubmit="validateForm(event)" method="post">
+            <div class="input-field">
+                <label>Name</label>
+                <input type="text" class="input" name="name" id="name">
+            </div>
+            <div class="input-field">
+                <label>Gender</label>
+                <div class="custom_select">
+                    <select name="gender" id="gender">
+                        <option value="">Select</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                </div>
+            </div>
+            <div class="input-field">
+                <label>Date of Birth</label>
+                <input type="date" class="input" name="dob" id="dob">
+            </div>
+            <div class="input-field">
+                <label>Password</label>
+                <input type="password" class="input" name="password" id="password">
+            </div>
+            <div class="input-field">
+                <label>Confirm Password</label>
+                <input type="password" class="input" name="confirmPassword" id="confirmPassword">
+            </div>
+            <div class="input-field">
+                <label>Email</label>
+                <input type="email" class="input" name="email" id="email">
+            </div>
+            <div class="input-field">
+                <label>Phone Number</label>
+                <input type="text" class="input" name="phone" id="phone">
+            </div>
+            <div class="input-field">
+                <label>Address</label>
+                <textarea class="textarea" name="address" id="address"></textarea>
+            </div>
+            <div class="input-field terms">
+                <label class="check">
+                    <input type="checkbox" name="checkbox" id="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <p>I agree to the terms and conditions</p>
+            </div>
+            <div class="input-field">
+                <input type="submit" value="Register" class="btn">
+            </div>
+        </form>
+    </div>
+
+    <div class="regis-title">
+        <h2>- Thank You for Visiting HI-Toyz Website -</h2>
+    </div>
+
+    <footer class="foot">
+        <div class="col">
+            <img src="img/logo.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address : Jl. Boulevard Utara 123, Jakarta Utara</strong></p>
+            <p><strong>Phone : </strong>0883 2383 9237</p>
+            <p><strong>E-mail : </strong>hitoyz@gmail.com</p>
+            <p><strong>Hours : </strong>10.00 - 20.00 Mon - Sat</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <p>About Us</p>
+            <p>Delivery</p>
+            <p>Terms & Conditions</p>
+            <p>Privacy Policy</p>
+            <p>Contact Us</p>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+           <p>Sign In</p>
+            <p>My Wishlist</p>
+            <p>Order</p>
+            <p>Discounts</p>
+            <p>Help</p>
+        </div>
+
+        <div class="col">
+            <h4>Company</h4>
+            <p>Blog</p>
+            <p>Store</p>
+            <p>Toys</a>
+            <p>Partner</p>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
